@@ -206,7 +206,7 @@ padding-bottom: 20px;}
 }
 .meetup {
     position: absolute;
-    top:4350px;
+    top:4500px;
     left: 500px;
 }
 
@@ -268,42 +268,33 @@ padding: 60px;
 
   @media screen and (max-width: 1280px) {
 
-  .main {
-
-        background: transparent url("../assets/Group102.png")  no-repeat padding-box;
-      }
-
       .header-logo {
-        width: 1280px;
-
     top: 20px;
-    left:405px}
+    left:140px;}
+ 
 
     .header-title {
         top: 120px;
-        left: 370px;
+        left: 100px;
     }
     
     .sub-title {
-        left: 450px;
+        left: 160px;
         font-size: 11px;
     }
 
     .banner {
         top: 220px;
-        left:350px;
+        left:5px;
     }
 
     .rectangle {
-        top: 250px;
-        left: 20px;
+padding: 0px;
     }
     
     .rec-text {
-
-        top: 400px;
-        width: 800px;
-     text-align: center;
+        top: 450px;
+        left:20px;
 }
 
 .sponsors {
@@ -335,8 +326,8 @@ padding: 60px;
 
 
 .img-create_2 {
-    top:1800px;
-    left: 950px;
+    top:2090px;
+    left:200px;
 }
 
 /* Join */
@@ -345,7 +336,7 @@ padding: 60px;
 }
 
 .img-path_2 {
-    top:2700px;
+    top:2450px;
 }
 
 .btn-div {
@@ -388,42 +379,62 @@ padding-bottom: 20px;}
 
 
 .meetup {
-    width:20px;
-    top:6250px;
-   left: 200px;
+    top:5640px;
+   left: 40px;
 }
 
 .web {
     padding: 40px 50px;
 
 }
+.img-wlogo {
+    width:70px;
+}
+
+.img-weblog {
+    width:70px;
+}
+ 
+.footer-logo {
+    left:140px;}
+
+    .footer-title {
+        top: 120px;
+        left: 100px;
+    }
+    
+    .sub-ftitle {
+        left: 160px;
+        font-size: 11px;
+    }
 
 
-.footer {
-  background: transparent url("../assets/Group1022x.png") 11% 0% no-repeat padding-box;
+  .web-coach {
+    width:50%;
   }
-  
-  .footer-logo {
-    position:absolute;
-  top: 20px;
-  left:45%}
-  
- .footer-title {
-    position:absolute;
-
-      top: 120px;
-      left: 40%;
-      width: 111px;
-      height: 37px;
-      background: transparent url('../assets/MaskGroup182x.png') 0% 0% no-repeat padding-box;
-      opacity: 1;
+  .meetups {
+    width:60%;
   }
-  
-  .sub-ftitle {
-    position:absolute;
 
-      top: 195px;
-      left: 45%;
+  .img-path_1 {
+    width:100%;
+  }
+
+  .img-path_2 {
+    width:50%;
+  }
+
+  .open {
+    width: 100%;
+  }
+  .hover {
+    width:100%;
+  }
+  .img-street {
+    width:100px;
+  }
+  .img-digital {
+    width:100px;
   }
 
 
