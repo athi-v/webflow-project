@@ -26,7 +26,7 @@ left:45%}
     left: 40%;
     width: 111px;
     height: 37px;
-    background: transparent url('img/Mask Group 18.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../assets/MaskGroup182x.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
@@ -255,7 +255,7 @@ padding: 60px;
       left: 40%;
       width: 111px;
       height: 37px;
-      background: transparent url('img/Mask Group 18.png') 0% 0% no-repeat padding-box;
+      background: transparent url('../assets/MaskGroup182x.png') 0% 0% no-repeat padding-box;
       opacity: 1;
   }
   
@@ -265,3 +265,166 @@ padding: 60px;
       top: 195px;
       left: 45%;
   }
+
+  @media screen and (max-width: 1280px) {
+
+  .main {
+
+        background: transparent url("../assets/Group102.png")  no-repeat padding-box;
+      }
+
+      .header-logo {
+        width: 1280px;
+
+    top: 20px;
+    left:405px}
+
+    .header-title {
+        top: 120px;
+        left: 370px;
+    }
+    
+    .sub-title {
+        left: 450px;
+        font-size: 11px;
+    }
+
+    .banner {
+        top: 220px;
+        left:350px;
+    }
+
+    .rectangle {
+        top: 250px;
+        left: 20px;
+    }
+    
+    .rec-text {
+
+        top: 400px;
+        width: 800px;
+     text-align: center;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+
+.mail {
+    padding: 50px 50px;
+}
+
+.mail-title {
+    font-size:22px;
+}
+
+.mail-name {
+    font-size: 7px;
+}
+
+
+.create {
+    padding: 40px 50px;
+
+}
+
+.create-title {
+    font-size: 22px;
+}
+
+
+.img-create_2 {
+    top:1800px;
+    left: 950px;
+}
+
+/* Join */
+.container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.img-path_2 {
+    top:2700px;
+}
+
+.btn-div {
+margin: 0px;
+text-align: center;}
+
+/* Lab */
+.lab {
+    padding: 40px 50px;
+
+}
+.lab-title {
+    font-size:22px;
+}
+
+/* Chapter */
+.chapter {
+    padding: 40px 50px;
+
+}
+
+.chapter-title {
+    font-size:22px; 
+}
+
+.opportunities {
+    padding: 40px 50px;
+}
+
+.opportunities-title {
+font-size: 22px;}
+
+.register {
+    padding: 40px 50px;
+}
+
+.register-title {
+font-size: 22px;
+padding-bottom: 20px;}
+
+
+.meetup {
+    width:20px;
+    top:6250px;
+   left: 200px;
+}
+
+.web {
+    padding: 40px 50px;
+
+}
+
+
+.footer {
+  background: transparent url("../assets/Group1022x.png") 11% 0% no-repeat padding-box;
+  }
+  
+  .footer-logo {
+    position:absolute;
+  top: 20px;
+  left:45%}
+  
+ .footer-title {
+    position:absolute;
+
+      top: 120px;
+      left: 40%;
+      width: 111px;
+      height: 37px;
+      background: transparent url('../assets/MaskGroup182x.png') 0% 0% no-repeat padding-box;
+      opacity: 1;
+  }
+  
+  .sub-ftitle {
+    position:absolute;
+
+      top: 195px;
+      left: 45%;
+  }
+
+
+}
