@@ -266,7 +266,8 @@ padding: 60px;
       left: 45%;
   }
 
-  @media screen and (max-width: 1280px) {
+
+  @media screen and (max-width: 640px) {
 
       .header-logo {
     top: 20px;
@@ -437,5 +438,65 @@ padding-bottom: 20px;}
     width:100px;
   }
 
+
+}
+@media screen and (max-width:420px)
+{
+
+   .img-create_2 {
+       top:470vw;
+       left:54vw;
+   }
+
+   
+   .meetup {
+    top:5220px;
+   }
+
+}
+
+@media screen and (max-width:412px)
+{
+
+   .img-create_2 {
+       top:480vw;
+       left:54vw;
+   }
+
+   
+   .meetup {
+    top:5260px;
+   }
+
+}
+
+@media screen and (max-width:375px)
+{
+
+   .img-create_2 {
+       top:500vw;
+       left:54vw;
+   }
+
+   
+   .meetup {
+    top:5150px;
+   }
+
+}
+
+@media screen and (max-width:360px)
+{
+
+   .img-create_2 {
+       top:590vw;
+       left:50vw;
+   }
+
+
+   
+   .meetup {
+    top:5775px;
+   }
 
 }
