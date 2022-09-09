@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
     <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
-    <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <title>Webflow template</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
 
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
@@ -19,7 +19,6 @@ body {
     padding: 0 !important;
     height: 100% !important;
     width: 100% !important;
-    background: #f1f1f1;
 }
 
 /* What it does: Stops email clients resizing small text. */
@@ -122,9 +121,6 @@ img.g-img + div {
 }
 
 
-.email-section{
-	padding:2.5em;
-}
 
 /*BUTTON*/
 .btn{
@@ -140,184 +136,16 @@ img.g-img + div {
 h1,h2,h3,h4,h5,h6{
     font-family: 'Lato', sans-serif;
     	color: #000000;
-	margin-top: 0;
 }
 
 body{
     font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.8;
 }
 
-
-
-table{
-}
-/*LOGO*/
-
-.logo h1{
-	margin: 0;
-}
-.logo h1 a{
-	color: #000;
-	font-size: 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
-}
-
-/*HERO*/
-.hero{
-	position: relative;
-}
-
-
-
-
-/*HEADING SECTION*/
-.heading-section{
-}
-.heading-section h2{
-	font-size: 28px;
-	margin-top: 0;
-	line-height: 1.4;
-}
-.heading-section .subheading{
-	margin-bottom: 20px !important;
-	display: inline-block;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	position: relative;
-}
-.heading-section .subheading::after{
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -10px;
-	content: '';
-	width: 100%;
-	height: 2px;
-	margin: 0 auto;
-}
-
-
-.heading-section-white h2{
-	font-size: 28px;
-	font-family: 
-	line-height: 1;
-	padding-bottom: 0;
-}
-.heading-section-white h2{
-	color: #ffffff;
-}
-.heading-section-white .subheading{
-	margin-bottom: 0;
-	display: inline-block;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: rgba(255,255,255,.4);
-}
-
-
-
-/*SERVICES*/
-.text-services{
-	padding: 10px 10px 0; 
-	text-align: center;
-}
-.text-services h3{
-	font-size: 20px;
-}
-
-/*BLOG*/
-.text-services .meta{
-	text-transform: uppercase;
-	font-size: 14px;
-}
-
-/*TESTIMONY*/
-.text-testimony .name{
-	margin: 0;
-}
-.text-testimony .position{
-	color: rgba(0,0,0,.3);
-
-}
-
-
-/*VIDEO*/
-.img{
-	width: 100%;
-	height: auto;
-	position: relative;
-}
-.img .icon{
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin-top: -25px;
-}
-.img .icon a{
-	display: block;
-	width: 60px;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	margin-left: -25px;
-}
-
-
-
-/*COUNTER*/
-.counter-text{
-	text-align: center;
-}
-.counter-text .num{
-	display: block;
-	color: #ffffff;
-	font-size: 34px;
-	font-weight: 700;
-}
-.counter-text .name{
-	display: block;
-	color: rgba(255,255,255,.9);
-	font-size: 13px;
-}
-
-
-/*FOOTER*/
-
-.footer{
-	color: rgba(255,255,255,.5);
-
-}
-.footer .heading{
-	color: #ffffff;
-	font-size: 20px;
-}
-.footer ul{
-	margin: 0;
-	padding: 0;
-}
-.footer ul li{
-	list-style: none;
-	margin-bottom: 10px;
-}
-.footer ul li a{
-	color: rgba(255,255,255,1);
-}
 
 
 @media screen and (max-width: 500px) {
 
-	.icon{
-		text-align: left;
-	}
 
 	.text-services{
 		padding-left: 0;
@@ -332,33 +160,44 @@ table{
 
 </head>
 
-<body width="100%" style=" color: #000; margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">
+<body width="100%" style=" color: #000; margin: 0 !important; padding: 0 !important; mso-line-height-rule: exactly; background-color: #222222;">
 	<center style="width: 100%; background-color: #f4f8f9 ;">
     <div style="display: none; font-size: 1px;max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
       &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
-    <div style="max-width: 660px; margin: 0 auto;" class="email-container">
+    <div style="max-width: 550px; margin: 0 auto;" class="email-container">
     	<!-- BEGIN BODY -->
-      <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+      <table align="center" role="presentation" cellspacing="" cellpadding="0" border="0" width="100%" style="margin: auto;">
       
 				<tr>
-          <td valign="middle" class="hero" style="color: #000; background-color: #FEEECD; background-image: url(assets/Group102.png); background-size:cover; height: 400px;">
+          <td valign="middle" style="color: #000; background-color: #FEEECD; background-image: url(assets/Group1022x.png); background-size:225%; background-repeat:no-repeat; background-position:center; height: 400px; ">
             <table>
             	<tr>
             		<td>
-            			<div class="text" text-align: center;">
-            				<h2 style="text-align: center;""><img width='10%' src="assets/Image12x.png" /></h2>
-                    <p style="text-align: center;><img width='20%' src="assets/MaskGroup182x.png" /></p>
-<p style="text-align: center; color: #000;"" >South Africa</p>
-<h3 style="text-align: center;"">COMMUNITY CHAPTER DIGEST #7</h3>
+            			<div style="text-align: center; color: #000; padding-bottom:0px;">
+                    <div><img width='10%' src="assets/Image12x.png" />
+                   <p style="margin: 0 0;
+                   padding: 0 0;">                              <img width='20%' src="assets/MaskGroup182x.png" />
+                   </p>
+                   <p style="font-weight: 900; font-size: 13px; margin: 0;
+                   padding: 0;"> 
+                                      South Africa
+                  </p>
 
-<div style="border-style: solid; border-color:#fff; background: white;">
-  <p style="text-align: center;"><a href="#" style=" color: #000; font-size: 13px; text-align: center;" >Pretoria's Webflow Chapter is committed to learning an
-    d growing a community o
-    f Webflow professionals at all levels, so if you are new to Webflow, curious, a seasoned pro or just passing by, we would love to engage with you to add value to your Webflow Journey.</a></p>
-
-</div>
+                  <h2 style="font-weight: 600; font-size: 25px;  ">
+                    COMMUNITY<br/>CHAPTER DIGEST #7             </h2>
+                    <div style="margin: 20px;
+                    padding: 5px 40px; border-style: solid; border-color:#fff; background: white; ">
+                      <div style="font-size:13px; text-align: center; line-height:1.5; font-weight: 600; "><a href="#" style=" color: #000; font-size: 13px; text-align: center;" >Pretoria's Webflow Chapter is committed to learning an
+                        d growing a <br/>community o
+                        f Webflow professionals at all levels, so if you are new to <br/> Webflow, curious, a seasoned pro or just passing by, we would love to <br/>engage with you to add value to your Webflow Journey.</a></div>
+                    
+                    </div>
+                
+                    </div>
+            
             			</div>
+                
             		</td>
             	</tr>
             </table>
@@ -369,10 +208,18 @@ table{
 		        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
 		          <tr>
 		            <td class="primary email-section" style="color: #000; text-align:center;">
-		            	<div class="heading-section ">
-		            		<span >SPONSORS</span>
-		              	<h2><img src="assets/MaskGroup20.png" /></h2>
-<p><img src="assets/Group105.png" /> <img src="assets/unnamed.png" /></p> 		            	</div>
+		            	<div class="heading-section">
+                    <p style="font-weight: 900; font-size: 13px; margin: 0;
+                    padding: 0;"> 
+                                      SPONSORS
+                   </p>		              	<h2 style="font-weight: 900; font-size: 13px; margin: 0;
+                   padding: 0;"><img src="assets/MaskGroup20.png" /></h2>
+<p><img style=" margin: 0;
+  padding: 0;" src="assets/Group105.png" /> 
+
+<img style=" margin: 0;
+  padding: 0;" src="assets/unnamed.png" />
+  </p> 		            	</div>
 		            </td>
 		          </tr><!-- end: tr -->
 		          <tr>
@@ -415,7 +262,7 @@ table{
                             in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique
                             a, gravida eget lorem.
                             </p>		 
-                            <p>Brandon Tancott / Robert Smart</p>           	</div>
+                            <p style="font-weight:600">Brandon Tancott / Robert Smart</p>           	</div>
 		  
 		          <tr>
 		            <td class="primary email-section">
@@ -434,7 +281,7 @@ max-width: 50%;"" width="100%" src="assets/Group1062x.png" />
 
                     </div>
 	   
-<p>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.</p>         	</div>
+<p>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, </p>         	</div>
 		       
 		            </td>
 		          </tr><!-- end: tr -->
@@ -484,11 +331,11 @@ max-width: 50%;"" width="100%" src="assets/Group1062x.png" />
 		              	<h2 style="text-align: center">LEARNING LAB</h2>
 
                           <ul>
-                            <li>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.</li>
-                            <li>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.</li>
-                            <li>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.</li>
-                            <li>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.</li>
-                            <li>Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.</li>
+                            <li style="padding:10px 0;">Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit </li>
+                            <li style="padding:10px 0;">Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit </li>
+                            <li style="padding:10px 0;">Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit </li>
+                            <li style="padding:10px 0;">Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit</li>
+                            <li style="padding:10px 0;">Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit</li>
                           </ul>          	</div>
 		  
 		          <tr>
@@ -500,7 +347,7 @@ max-width: 50%;"" width="100%" src="assets/Group1062x.png" />
 		              	<h2>WEBFLOW CHAPTER SHOWCASE</h2>
 
                           <p>
-                            Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit egestas, mauris purus fringilla lacus, in ultricies urna odio sed neque. Nullam ipsum sem, volutpat a tristique a, gravida eget lorem.
+                            Curabitur congue suscipit metus egestas consequat. Morbi posuere sed metus non porttitor. Aenean iaculis, leo eu suscipit 
                             </p>
                             <p><img width="100%" src="assets/opengraph2x.png" />
                             </p>		   
@@ -566,25 +413,42 @@ max-width: 50%;"" width="100%" src="assets/Group1062x.png" />
 <tr>
 
 </tr><!-- end: tr --></div>
-                        
+ 
+
+<tr>
+  <td>  <div style="text-align: center; color: #000; padding-top:50px;">
+    <div><img width='10%' src="assets/Image12x.png" />
+   <p style="margin: 0 0;
+   padding: 0 0;">                              <img width='20%' src="assets/MaskGroup182x.png" />
+   </p>
+   <p style="font-weight: 900; font-size: 13px; margin: 0;
+   padding: 0;"> 
+                      South Africa
+  </p>
+
+
+    </div>
+
+  </div></td>
+
+</tr>
+
+
+
+
 		       
 <tr>
-  <td valign="middle" class="hero" style="color: #000; background-color: #FEEECD; background-image: url(assets/Group102.png); background-size:cover; height: 400px;">
+  <td valign="middle" style="color: #000; background-color: #FEEECD; background-image: url(assets/Group1022x.png); background-size:225%; background-repeat:no-repeat; background-position:center; height: 330px; ">
     <table>
       <tr>
         <td>
-          <div class="text" text-align: center;">
-            <h2 style="text-align: center;""><img width='10%' src="assets/Image12x.png" /></h2>
-            <p style="text-align: center;><img width='20%' src="assets/MaskGroup182x.png" /></p>
-<p style="text-align: center; color: #000;"" >South Africa</p>
-<h3 style="text-align: center;"">COMMUNITY CHAPTER DIGEST #7</h3>
-                         </div>
+        
+        
         </td>
       </tr>
     </table>
   </td>
 </tr><!-- end tr -->
-
 				  
 		        </table>
 
