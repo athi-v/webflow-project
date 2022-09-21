@@ -6,7 +6,7 @@
   position: static;
   display: block;
   width: 550px;
-  height: 4051px;
+  height: 4080px;
   max-width: 550px;
   margin-right: auto;
   margin-left: auto;
@@ -28,14 +28,19 @@
 }
 
 .background_div {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 16px;
   height: 3801px;
+  padding-top: 0px;
   background-image: url('../images/Group-102.png');
-  background-position: -147px 16px;
+  background-position: -150px 11px;
   background-size: auto;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  font-family: Lato, sans-serif;
   color: #000;
+  font-weight: 400;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -51,7 +56,7 @@
 .div-block-2 {
   position: absolute;
   left: 248px;
-  top: 22px;
+  top: auto;
   right: 0%;
   bottom: auto;
   width: 55px;
@@ -65,13 +70,13 @@
 .div-block-3 {
   position: absolute;
   left: 220px;
-  top: 75px;
+  top: 51px;
 }
 
 .div-block-4 {
   position: absolute;
   left: 243px;
-  top: 115px;
+  top: 89px;
   font-size: 11px;
   font-weight: 700;
   text-align: center;
@@ -89,6 +94,7 @@
   height: 48px;
   font-family: Lato, sans-serif;
   font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
   text-align: center;
 }
@@ -260,7 +266,7 @@
   position: absolute;
   left: -21.99169921875px;
   top: 1501px;
-  right: 0px;
+  right: auto;
   width: 176px;
   height: 177px;
 }
@@ -408,6 +414,7 @@
   height: 40px;
   font-family: Lato, sans-serif;
   line-height: 17px;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -528,8 +535,10 @@
 
 .image-3 {
   position: absolute;
-  left: 120px;
-  top: 150px;
+  left: 123px;
+  top: 145px;
+  width: 45%;
+  max-width: 100%;
 }
 
 .link-block_btn {
@@ -614,7 +623,8 @@
 
 .background_div_2 {
   position: relative;
-  height: 250px;
+  top: 269px;
+  height: 230px;
   background-color: #feeecd;
   background-image: url('../images/Group-102.png');
   background-position: -147px 16px;
@@ -775,68 +785,85 @@
   }
 
   .background_div {
+    top: 60px;
     overflow: visible;
     width: auto;
     height: 3700px;
     max-width: 320px;
     background-image: url('../images/Group-102.png');
-    background-position: -30px 130px;
-    background-size: 482px;
+    background-position: -80px 40px;
+    background-size: 550px;
     -o-object-fit: cover;
     object-fit: cover;
   }
 
   .div-block-2 {
-    left: 147px;
+    left: 132px;
+    top: -33px;
   }
 
   .div-block-3 {
-    left: 120px;
+    left: 103px;
+    top: 19px;
   }
 
   .div-block-4 {
-    left: 146px;
+    left: 128px;
+    top: 61px;
   }
 
   .div-block-5 {
-    left: 79px;
+    left: 60px;
+  }
+
+  .text-block-3 {
+    top: -41px;
   }
 
   .div-block-6 {
-    left: 2px;
-    top: 233px;
-    width: 320px;
+    left: 6px;
+    top: 171px;
+    right: 6px;
+    width: 310px;
+    height: 90px;
   }
 
   .paragraph_white {
-    left: -1px;
-    width: 320px;
+    left: auto;
+    right: auto;
+    width: 308px;
     max-width: 320px;
     font-size: 10px;
   }
 
   .div-block-7 {
-    left: 146px;
+    left: 128px;
+    top: 306px;
   }
 
   .div-block-8 {
-    left: 120px;
+    left: 103px;
+    top: 336px;
   }
 
   .div-block-9 {
-    left: 99px;
+    left: 90px;
+    top: 378px;
   }
 
   .div-block-10 {
-    left: 180px;
+    left: 167px;
+    top: 378px;
   }
 
   .text-block-5 {
     left: 6px;
+    top: 483px;
   }
 
   .div-block-11 {
     left: 6px;
+    top: 526px;
     right: 6px;
     width: auto;
     max-width: 320px;
@@ -848,13 +875,13 @@
 
   .text-block-6 {
     left: 6px;
-    top: 1242px;
+    top: 1177px;
     width: auto;
   }
 
   .text-block-7 {
-    left: auto;
-    top: 1300px;
+    left: 6px;
+    top: 1285px;
   }
 
   .div-block-12 {
@@ -1003,7 +1030,8 @@
   }
 
   .div-block-18 {
-    left: auto;
+    left: 6px;
+    right: 6px;
     width: auto;
   }
 
@@ -1031,12 +1059,13 @@
   }
 
   .background_div_2 {
+    top: 90px;
     width: auto;
-    height: 230px;
+    height: 200px;
     max-width: 320px;
     background-image: url('../images/Group-102.png');
-    background-position: -30px 130px;
-    background-size: 482px;
+    background-position: -80px 80px;
+    background-size: 550px;
   }
 
   .image-6 {
